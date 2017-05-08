@@ -1,10 +1,10 @@
-package com.alms.animator.flipOver;
+package com.owl.turn;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 
-import com.alms.animator.R;
+import com.owl.page.turn.R;
 
 import butterknife.ButterKnife;
 import butterknife.OnClick;

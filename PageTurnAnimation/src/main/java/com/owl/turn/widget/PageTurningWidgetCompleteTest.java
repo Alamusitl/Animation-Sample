@@ -1,4 +1,4 @@
-package com.alms.animator.flipOver.widget;
+package com.owl.turn.widget;
 
 import android.content.Context;
 import android.graphics.Bitmap;

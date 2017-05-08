@@ -1,11 +1,11 @@
-package com.alms.animator.flipOver;
+package com.owl.turn;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.Window;
 import android.view.WindowManager;
 
-import com.alms.animator.flipOver.widget.PageTurningWidgetSimpleTest;
+import com.owl.turn.widget.PageTurningWidgetSimpleTest;
 
 public class PageTurningSimpleTest extends Activity {
     @Override

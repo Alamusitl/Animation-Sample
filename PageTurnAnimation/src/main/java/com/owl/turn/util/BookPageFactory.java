@@ -1,4 +1,4 @@
-package com.alms.animator.flipOver.util;
+package com.owl.turn.util;
 
 import android.graphics.Bitmap;
 import android.graphics.Canvas;

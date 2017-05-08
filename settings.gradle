@@ -1,1 +1,1 @@
-include ':Animator', ':Card-Reversal-Anim', ':DrawableAnimation', ':ViewAnimation', ':PropertyAnimation', ':BezierAnimation', ':ElasticDownload', ':VectorSample'
+include ':PageTurnAnimation', ':Card-Reversal-Anim', ':DrawableAnimation', ':ViewAnimation', ':PropertyAnimation', ':BezierAnimation', ':ElasticDownload', ':VectorSample'
