@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector xmlns:android="http://schemas.android.com/apk/res/android"
+                   android:enterFadeDuration="100"
+                   android:exitFadeDuration="100">
+
+    <item
+        android:id="@+id/activated_on"
+        android:drawable="@color/colorAccent"
+        android:state_activated="true"/>
+
+    <item
+        android:id="@+id/activated_off"
+        android:drawable="@color/colorPrimary"
+        android:state_activated="false"/>
+
+    <transition
+        android:fromId="@id/activated_on"
+        android:toId="@id/activated_off">
+        <animation-list
+            android:oneshot="true">
+            <item
+                android:drawable="@drawable/cat"
+                android:duration="500"/>
+
+            <item
+                android:drawable="@drawable/cat_rotate_90"
+                android:duration="500"/>
+
+            <item
+                android:drawable="@drawable/cat_rotate_180"
+                android:duration="500"/>
+
+            <item
+                android:drawable="@drawable/cat_rotate_270"
+                android:duration="500"/>
+            <item
+                android:drawable="@color/colorPrimary"
+                android:duration="500"/>
+        </animation-list>
+    </transition>
+
+    <transition
+        android:fromId="@id/activated_off"
+        android:toId="@id/activated_on">
+        <animation-list
+            android:oneshot="true">
+            <item
+                android:drawable="@drawable/cat_rotate_270"
+                android:duration="500"/>
+
+            <item
+                android:drawable="@drawable/cat_rotate_180"
+                android:duration="500"/>
+
+            <item
+                android:drawable="@drawable/cat_rotate_90"
+                android:duration="500"/>
+
+            <item
+                android:drawable="@drawable/cat"
+                android:duration="500"/>
+
+            <item
+                android:drawable="@color/colorAccent"
+                android:duration="500"/>
+        </animation-list>
+    </transition>
+
+</animated-selector>

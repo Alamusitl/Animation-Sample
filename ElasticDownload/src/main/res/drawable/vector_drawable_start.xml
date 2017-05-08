@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- AppCompat:23.2+开始 Google开始在低版本支持Vector-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:width="500dp"
+        android:height="500dp"
+        android:viewportHeight="500"
+        android:viewportWidth="500"
+        app:vc_viewportHeight="500"
+        app:vc_viewportWidth="500">
+
+    <group>
+        <path
+            android:name="circle_line"
+            android:fillColor="@color/red_wood"
+            android:pathData="M 125 250
+                               C 137.5 83.34 362.5 83.34 375 250
+                               M 125 250
+                               C 137.5 416.66 362.5 416.66 375 250"
+            android:strokeColor="@color/red_wood"
+            android:strokeWidth="5"
+            app:vc_fillColor="@color/red_wood"
+            app:vc_pathData="M 125 250
+                               C 137.5 83.34 362.5 83.34 375 250
+                               M 125 250
+                               C 137.5 416.66 362.5 416.66 375 250"
+            app:vc_strokeColor="@color/red_wood"
+            app:vc_strokeWidth="5"/>
+        <path
+            android:name="arrow_bubble"
+            android:fillColor="@android:color/white"
+            android:pathData="M 225 190
+                              L 275 190
+                              Q 280 190 280 195
+                              L 280 260
+                              Q 280 265 285 265
+                              L 300 265
+                              Q 310 265 305 270
+                              L 255 310
+                              Q 250 315 245 310
+                              L 195 270
+                              Q 190 265 200 265
+                              L 215 265
+                              Q 220 265 220 260
+                              L 220 195
+                              Q 220 190 225 190"
+            android:strokeColor="@android:color/white"
+            android:strokeWidth="2"
+            app:vc_fillColor="@android:color/white"
+            app:vc_pathData="M 225 190
+                              L 275 190
+                              Q 280 190 280 195
+                              L 280 260
+                              Q 280 265 285 265
+                              L 300 265
+                              Q 310 265 305 270
+                              L 255 310
+                              Q 250 315 245 310
+                              L 195 270
+                              Q 190 265 200 265
+                              L 215 265
+                              Q 220 265 220 260
+                              L 220 195
+                              Q 220 190 225 190"
+            app:vc_strokeColor="@android:color/white"
+            app:vc_strokeWidth="2"/>
+    </group>
+</vector>

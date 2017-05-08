@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Animator" />
+            <option value="$PROJECT_DIR$/BezierAnimation" />
+            <option value="$PROJECT_DIR$/Card-Reversal-Anim" />
+            <option value="$PROJECT_DIR$/DrawableAnimation" />
+            <option value="$PROJECT_DIR$/ElasticDownload" />
+            <option value="$PROJECT_DIR$/PropertyAnimation" />
+            <option value="$PROJECT_DIR$/VectorSample" />
+            <option value="$PROJECT_DIR$/ViewAnimation" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

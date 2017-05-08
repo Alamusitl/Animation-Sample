@@ -1,0 +1,20 @@
+<animated-selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- provide a different drawable for each state-->
+    <item
+        android:id="@+id/state_on"
+        android:drawable="@drawable/vector_pink_heart"
+        android:state_activated="true"/>
+    <item
+        android:id="@+id/state_off"
+        android:drawable="@drawable/vector_gray_heart"
+        android:state_activated="false"/>
+
+    <!-- specify transitions -->
+    <transition
+        android:drawable="@drawable/avd_heart_change"
+        android:fromId="@id/state_off"
+        android:toId="@id/state_on">
+
+    </transition>
+</animated-selector>

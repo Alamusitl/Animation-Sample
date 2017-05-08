@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translate xmlns:android="http://schemas.android.com/apk/res/android"
+           android:duration="2000"
+           android:fromXDelta="-100%"
+           android:fromYDelta="0"
+           android:toXDelta="100%"
+           android:toYDelta="0">
+
+    <!-- android:fromXDelta 起始位置的X坐标的偏移量 -->
+    <!-- android:toXDelta 结束位置的X坐标的偏移量 -->
+    <!-- android:fromYDelta 起始位置的Y坐标的偏移量 -->
+    <!-- android:toYDelta 结束位置的Y坐标的偏移量 -->
+
+</translate>

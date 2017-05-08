@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="MyList">
+        <item>Animation List</item>
+        <item>Animated Rotate</item>
+        <item>Animated Selected</item>
+        <item>Animated Vector</item>
+    </array>
+</resources>

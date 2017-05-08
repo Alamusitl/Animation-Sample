@@ -1,0 +1,11 @@
+<objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:duration="1000"
+                android:interpolator="@android:interpolator/decelerate_cubic"
+                android:propertyName="fillColor"
+                android:repeatCount="infinite"
+                android:repeatMode="reverse"
+                android:valueFrom="@android:color/holo_green_dark"
+                android:valueTo="@android:color/darker_gray"
+                android:valueType="intType"
+                tools:targetApi="ice_cream_sandwich"/>

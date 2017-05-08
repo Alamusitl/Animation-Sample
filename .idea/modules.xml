@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AnimationSample.iml" filepath="$PROJECT_DIR$/AnimationSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Animator/Animator.iml" filepath="$PROJECT_DIR$/Animator/Animator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BezierAnimation/BezierAnimation.iml" filepath="$PROJECT_DIR$/BezierAnimation/BezierAnimation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Card-Reversal-Anim/Card-Reversal-Anim.iml" filepath="$PROJECT_DIR$/Card-Reversal-Anim/Card-Reversal-Anim.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DrawableAnimation/DrawableAnimation.iml" filepath="$PROJECT_DIR$/DrawableAnimation/DrawableAnimation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ElasticDownload/ElasticDownload.iml" filepath="$PROJECT_DIR$/ElasticDownload/ElasticDownload.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PropertyAnimation/PropertyAnimation.iml" filepath="$PROJECT_DIR$/PropertyAnimation/PropertyAnimation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VectorSample/VectorSample.iml" filepath="$PROJECT_DIR$/VectorSample/VectorSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ViewAnimation/ViewAnimation.iml" filepath="$PROJECT_DIR$/ViewAnimation/ViewAnimation.iml" />
+    </modules>
+  </component>
+</project>

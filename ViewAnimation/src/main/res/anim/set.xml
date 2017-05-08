@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+     android:detachWallpaper="false"
+     android:duration="1000"
+     android:fillAfter="false"
+     android:fillBefore="true"
+     android:fillEnabled="true"
+     android:interpolator="@android:anim/linear_interpolator"
+     android:repeatCount="0"
+     android:repeatMode="restart"
+     android:shareInterpolator="true"
+     android:startOffset="0"
+     android:zAdjustment="normal">
+
+    <!-- 通用属性 -->
+    <!-- android:duration 动画时间 -->
+    <!-- android:detachWallpaper 设置是否在壁纸上运行，只对设置了壁纸背景的窗口动画(window animation)有效。设为true，则动画只在窗口运行，壁纸背景保持不变 -->
+    <!-- android:fillAfter 设置为true时，动画执行完后，View会停留在动画的最后一帧；默认为false；如果是动画集，需在<set>标签中设置该属性才有效 -->
+    <!-- android:fillBefore 设置为true时，动画执行完后，View回到动画执行前的状态，默认即为true -->
+    <!-- android:fillEnabled 设置为true时，android:fillBefore的值才有效，否则android:fillBefore会被忽略 -->
+    <!-- android:repeatCount 设置动画重复执行的次数，默认为0，即不重复；可设为-1或infinite，表示无限重复 -->
+    <!-- android:repeatMode 设置动画重复执行的模式，可设为以下两个值其中之一：
+            restart 动画重复执行时从起点开始，默认为该值
+            reverse 动画会反方向执行 -->
+    <!-- android:startOffset 设置动画执行之前的等待时长，毫秒为单位；重复执行时，每次执行前同样也会等待一段时间 -->
+    <!-- android:zAdjustment 表示被设置动画的内容在动画运行时在Z轴上的位置，取值为以下三个值之一：
+            normal 默认值，保持内容在Z轴上的位置不变
+            top 保持在Z周最上层
+            bottom 保持在Z轴最下层 -->
+
+
+    <!-- <set>标签还有个android:shareInterpolator属性，设置为true时则可将interpolator应用到所有子元素中 -->
+    <!-- android:interpolator 设置动画速率的变化，比如加速、减速、匀速等，需要指定Interpolator资源 -->
+    <!-- <accelerateDecelerateInterpolator> 在动画开始与结束时速率改变比较慢，在中间的时候加速。没有可更改设置的属性，所以设置的效果和系统提供的一样 -->
+    <!-- <accelerateInterpolator> 在动画开始时速率改变比较慢，然后开始加速。有一个属性可以设置加速的速率
+            android:factor 浮点值，加速的速率，默认为1 -->
+    <!-- <anticipateInterpolator> 动画开始的时候向后然后往前抛。有一个属性设置向后拉的值
+            android:tension 浮点值，向后的拉力，默认为2，当设为0时，则不会有向后的动画了 -->
+    <!-- <anticipateOvershootInterpolator> 动画开始的时候向后然后向前抛，会抛超过目标值后再返回到最后的值。可设置两个属性
+            android:tension 浮点值，向后的拉力，默认为2，当设为0时，则不会有向后的动画了
+            android:extraTension 浮点值，拉力的倍数，默认为1.5(2*1.5)，当设为0时，则不会有拉力了 -->
+    <!-- <bounceInterpolator> 动画结束的时候会弹跳。没有可更改设置的属性 -->
+    <!-- <cycleInterpolator> 动画循环做周期运动，速率改变沿着正弦曲线。有一个属性设置循环次数
+            android:cycles 整数值，循环的次数，默认为1 -->
+    <!-- <decelerateInterpolator> 在动画开始时速率改变比较快，然后开始减速。有一个属性设置减速的速率
+            android:factor 浮点值，减速的速率，默认为1 -->
+    <!-- <linearInterpolator> 动画匀速播放。没有可更改设置的属性 -->
+    <!-- <overshootInterpolator> 动画向前抛，会抛超过最后值，然后再返回。有一个属性
+            android:tension 浮点值，超出终点后的拉力，默认为2 -->
+    <!-- 自定义的方式有两种，一种是通过继承 Interpolator 父类或其子类；另一种是通过自定义的xml文件，可以更改上表中Interpolator的属性。自定义的xml文件需存放于res/anim/目录下 -->
+
+    <translate
+        android:fromXDelta="-100%"
+        android:toYDelta="100%"/>
+
+    <scale
+        android:fromXScale="0.0"
+        android:fromYScale="0.0"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:toXScale="1.0"
+        android:toYScale="1.0"/>
+
+    <alpha
+        android:fromAlpha="0.0"
+        android:toAlpha="1.0"/>
+
+    <rotate
+        android:fromDegrees="0"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:toDegrees="720"/>
+</set>

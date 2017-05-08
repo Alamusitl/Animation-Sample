@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_padding_vertical"
+    android:paddingLeft="@dimen/activity_padding_horizontal"
+    android:paddingRight="@dimen/activity_padding_horizontal"
+    android:paddingTop="@dimen/activity_padding_vertical">
+
+    <SeekBar
+        android:id="@+id/id_main_progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:onClick="onResetClick"
+        android:text="Reset"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onRunSuccessClick"
+            android:text="Run Success"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onRunFailClick"
+            android:text="Run Fail"/>
+    </LinearLayout>
+
+    <com.owl.elasticdownload.view.ElasticDownloadView
+        android:id="@+id/id_main_download_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>

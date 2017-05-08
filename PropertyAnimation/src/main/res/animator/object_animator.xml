@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+                android:duration="2000"
+                android:propertyName="width"
+                android:valueFrom="100"
+                android:valueTo="50"
+                android:valueType="intType">
+
+    <!-- android:propertyName 需要改变属性的名字，必须提供setter和getter方法 -->
+
+</objectAnimator>

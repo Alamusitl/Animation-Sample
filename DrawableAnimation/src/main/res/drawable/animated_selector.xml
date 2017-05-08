@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          android:enterFadeDuration="100"
+          android:exitFadeDuration="100"
+          tools:targetApi="honeycomb">
+
+    <item android:drawable="@color/colorAccent"
+          android:state_activated="true"/>
+
+    <item android:drawable="@color/colorPrimary"
+          android:state_activated="false"/>
+
+</selector>
